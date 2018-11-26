@@ -11,7 +11,7 @@ for (let i = -52; i < 1067; i++){
 
     
 /* Don't Worry, Be Happy */
-var beCheerful = 'good morning!'
+var beCheerful = 'good morning!';
 console.log(beCheerful.repeat(98));
 
 /* Multiples of Three -- but Not All 
@@ -34,4 +34,15 @@ for(var i = 2000; i <= 5280; i++) {
   }
 
 /* You Say It's Your Birthday */
+    
+/* Leap Year */
+    
+/* The Final Countdown */
+
+/* Print and Count */
+/* Multiples of Six */
+/* Counting, the Dojo Way */
+/* Whoa, That Sucker's Huge... */
+/* Countdown by Fourts */
+/* Flexible Countdown */
 
