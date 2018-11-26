@@ -13,17 +13,19 @@ function get_array(){
     console.log(i);
   }
     
-/* Don't Worry, Be Happy */
+/* Don't Worry, Be Happy 
+need to skip -3 and -6 */
 var beCheerful = 'good morning!'
 console.log(beCheerful.repeat(98));
 
 /* Multiples of Three -- but Not All */
-function newContent() {
-  document.open();
-
-  for (var i = -300; i < 1; i += 3) {
-    if (i % 2 != 0)
-      document.write(i + ' ');
-  }
-  document.close();
+for ( var i = -300 ; i < 1 ; i++ ) {
+    if(i % 3 === 0) {
+        document.write(i + "<br>");
+    }
 }
+
+/* Printing Integers with While */
+
+
+
