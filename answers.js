@@ -2,13 +2,11 @@
 var myNumber = 42;
 var myName = 'Ron';
 var myNumber = myName;
-var MyName = myNumber ;
+var MyName = myNumber;
 
 /* Print -52 to 1066 */
 for (let i = -52; i < 1067; i++){
     console.log(i);
-
-
     
 /* Don't Worry, Be Happy */
 var beCheerful = 'good morning!';
@@ -37,18 +35,28 @@ for(var i = 2000; i <= 5280; i++) {
     
 /* Leap Year */
     
-/* The Final Countdown */
-
 /* Print and Count */
-for (for i = 512; i <= 4096; i++){
-     if ( i % 5 === 0){
+for (let i = 512; i <= 4096; i++){
+     if (i % 5 === 0){
     document.write(i + "<br>");
 }
 } 
     
 /* Multiples of Six */
+    
 /* Counting, the Dojo Way */
+for (let i = 1; i <= 100;i++){
+    if (i % 5 === 0){
+        console.log('Coding'){
+            elseif (i % 10 === 0){
+                console.log(' Dojo')}
+        }
+    }
+}
+ 
+    
 /* Whoa, That Sucker's Huge... */
 /* Countdown by Fourts */
 /* Flexible Countdown */
 
+/* The Final Countdown */
