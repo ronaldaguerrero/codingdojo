@@ -17,7 +17,9 @@ console.log(beCheerful.repeat(98));
 /* Multiples of Three -- but Not All 
 need to skip -3 and -6 */
 for (let i = -300 ; i < 1 ; i++ ) {
-    if(i % 3 === 0) {
+    if(i === -6) {break; }{
+        else
+        (i % 3 === 0) {
         document.write(i + "<br>");
     }
 }
