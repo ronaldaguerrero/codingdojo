@@ -18,3 +18,12 @@ var beCheerful = 'good morning!'
 console.log(beCheerful.repeat(98));
 
 /* Multiples of Three -- but Not All */
+function newContent() {
+  document.open();
+
+  for (var i = -300; i < 1; i += 3) {
+    if (i % 2 != 0)
+      document.write(i + ' ');
+  }
+  document.close();
+}
