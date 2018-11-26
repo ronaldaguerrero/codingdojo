@@ -13,12 +13,12 @@ function get_array(){
     console.log(i);
   }
     
-/* Don't Worry, Be Happy 
-need to skip -3 and -6 */
+/* Don't Worry, Be Happy */
 var beCheerful = 'good morning!'
 console.log(beCheerful.repeat(98));
 
-/* Multiples of Three -- but Not All */
+/* Multiples of Three -- but Not All 
+need to skip -3 and -6 */
 for ( var i = -300 ; i < 1 ; i++ ) {
     if(i % 3 === 0) {
         document.write(i + "<br>");
