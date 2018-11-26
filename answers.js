@@ -1,8 +1,8 @@
 /* Setting and Swapping */
-var myNumber = 42
-var myName = 'Ron'
-var myNumber = myName
-var MyName = myNumber 
+var myNumber = 42;
+var myName = 'Ron';
+var myNumber = myName;
+var MyName = myNumber ;
 
 /* Print -52 to 1066 */
 for (let i = -52; i < 1067; i++){
