@@ -26,6 +26,13 @@ for ( var i = -300 ; i < 1 ; i++ ) {
 }
 
 /* Printing Integers with While */
+function get_array(){
+  var arr = [];
+for(var i = 2000; i <= 5280; i++) {
+     arr.push(i);
+}
+    console.log(i);
+  }
 
-
+/* You Say It's Your Birthday */
 
