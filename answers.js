@@ -40,6 +40,12 @@ for(var i = 2000; i <= 5280; i++) {
 /* The Final Countdown */
 
 /* Print and Count */
+for (for i = 512; i <= 4096; i++){
+     if ( i % 5 === 0){
+    document.write(i + "<br>");
+}
+} 
+    
 /* Multiples of Six */
 /* Counting, the Dojo Way */
 /* Whoa, That Sucker's Huge... */
