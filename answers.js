@@ -30,7 +30,7 @@ while (i++ < 5280) {
 document.write(result);
 
 /*[DONE] You Say It's Your Birthday */
-var x = 11
+var x = 11;
 if (x === 11 || x === 15){
   console.log('How did you know?');
 } else {
@@ -38,6 +38,9 @@ if (x === 11 || x === 15){
 }
     
 /* Leap Year */
+year = window.prompt("Input a Year : ");
+x = (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+console.log(x);
     
 /*[DONE] Print and Count */
 for (var i = 512; i <= 4096; i++){
@@ -46,11 +49,13 @@ for (var i = 512; i <= 4096; i++){
 }
 } 
     
-/* Multiples of Six */
-    var i = 0;
-while (i < 60,000) {
-  i++;
-  i += i;
+/*[DONE] Multiples of Six */
+var x = 1;
+while (x <= 60000){
+  if (x % 6 === 0)
+  document.write('\n',x);
+  x++;
+}
     
 /* Counting, the Dojo Way */
 for (var i = 1; i <= 100;i++){
