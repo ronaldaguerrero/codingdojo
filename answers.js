@@ -27,7 +27,7 @@ var i = 1999, result = "";
 while (i++ < 5280) {
     result += i + " ";}
 
-console.log(result);
+document.write(result);
 
 /*[DONE] You Say It's Your Birthday */
 var x = 11
