@@ -34,10 +34,10 @@ if (x === 11 || x === 15){
     
 /* Leap Year */
     
-/* Print and Count */
+/*[DONE] Print and Count */
 for (var i = 512; i <= 4096; i++){
      if (i % 5 === 0){
-    document.write(i + "<br>");
+    console.log(i);
 }
 } 
     
