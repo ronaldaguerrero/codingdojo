@@ -1,37 +1,36 @@
-/* Setting and Swapping */
+/*[DONE] Setting and Swapping */
 var myNumber = 42;
 var myName = 'Ron';
-var myNumber = myName;
-var MyName = myNumber;
+myNumber = myName;
+MyName = myNumber;
 
-/* Print -52 to 1066 */
-for (var i = -52; i < 1067; i++){
-    console.log(i);
+/*[DONE] Print -52 to 1066 */
+for (let i = -52; i < 1067; i++){
+    console.log(i);}
     
-/* Don't Worry, Be Happy */
+/*[DONE] Don't Worry, Be Happy */
 var beCheerful = 'good morning!';
 console.log(beCheerful.repeat(98));
 
 /* Multiples of Three -- but Not All 
-need to skip -3 and -6 */
-for (var i = -300 ; i < 1 ; i++ ) {
-    if(i === -6) {break; }{
-        else
-        (i % 3 === 0) {
-        document.write(i + "<br>");
-    }
-}
+need to skip -3 and -6 */ 
+        
 
-/* Printing Integers with While */
-function get_array(){
-  var arr = [];
-for(var i = 2000; i <= 5280; i++) {
-     arr.push(i);
-}
-    console.log(i);
-  }
+/*[DONE] Printing Integers with While */
+var i = 1999, result = "";
 
-/* You Say It's Your Birthday */
+while (i++ < 5280) {
+    result += i + " ";}
+
+console.log(result);
+
+/*[DONE] You Say It's Your Birthday */
+var x = 11
+if (x === 11 || x === 15){
+  console.log('How did you know?');
+} else {
+  console.log('Just another day....');
+}
     
 /* Leap Year */
     
