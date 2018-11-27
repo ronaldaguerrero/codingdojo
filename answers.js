@@ -63,7 +63,7 @@ for (var i = 1; i <= 100;i++){
 }
  
     
-/* Whoa, That Sucker's Huge... */
+/*[working] Whoa, That Sucker's Huge... */
 var sum = 0;
 for (var i = -300,000; i < 300,000; i++)
 {
@@ -75,6 +75,7 @@ for (var i = -300,000; i < 300,000; i++)
 console.log(sum);
         
 /* Countdown by Fourts */
+        
 /* Flexible Countdown */
 
 /* The Final Countdown */
