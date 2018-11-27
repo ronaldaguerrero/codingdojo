@@ -6,15 +6,20 @@ MyName = myNumber;
 
 /*[DONE] Print -52 to 1066 */
 for (let i = -52; i < 1067; i++){
-    console.log(i);}
+    document.write(i);}
     
 /*[DONE] Don't Worry, Be Happy */
 var beCheerful = 'good morning!';
 console.log(beCheerful.repeat(98));
 
-/* Multiples of Three -- but Not All 
-need to skip -3 and -6 */ 
-        
+/*[DONE] Multiples of Three -- but Not All */
+for (var i = -300; i < 0;i++){
+    if (i === -6){
+        break;}
+    else if (i % 3 === 0){
+        document.write(i);}
+}
+
 
 /*[DONE] Printing Integers with While */
 var i = 1999, result = "";
