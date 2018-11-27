@@ -58,19 +58,7 @@ while (x <= 60000){
 }
     
 /* Counting, the Dojo Way */
-for (var i = 1; i <= 100;i++){
-    if (i % 5 && i % 10 === 0){
-        console.log(i){
-            else{
-                if (i % 10 === 0){
-                    console.log(' Dojo');
-                }
-                if (i % 5 ===0){
-                    console.log('Coding');
-        }
-    }
-    console.log('<br>');
-}
+
  
     
 /*[working] Whoa, That Sucker's Huge... */
