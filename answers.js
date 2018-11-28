@@ -112,3 +112,13 @@ function flexCount(low, high, mult) {
 flexCount(2, 9, 3);
 
 /* The Final Countdown */
+
+/* ***************************** */
+
+/* Countdown */
+/* Print and Return */
+/* First Plus Length */
+/* Values Greater than Second */
+/* Values Greater than Second, Generalized */
+/* This Length, That Value */
+
