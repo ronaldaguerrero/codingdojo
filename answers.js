@@ -115,8 +115,25 @@ flexCount(2, 9, 3);
 
 /* ***************************** */
 
-/* Countdown */
+/*[done] Countdown */
+function countDown(num) {
+    let newArr = [];
+    for (let i = num; i >= 0; i--) {
+        newArr.push(i);
+    }
+    console.log(newArr);
+    console.log(`the length is ${newArr.length}`);
+}
+countDown(44);
+
 /* Print and Return */
+function pR(myArr){
+    document.write(myArr[0]);
+    return myArr[1];
+}
+pR(4,5);
+    
+
 /* First Plus Length */
 /* Values Greater than Second */
 /* Values Greater than Second, Generalized */
