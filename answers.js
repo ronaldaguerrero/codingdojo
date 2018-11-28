@@ -128,14 +128,14 @@ function countDown(num) {
 countDown(44);
 
 /* Print and Return */
-function pAndR(myArr) {
+function printNreturn(myArr) {
     document.write(myArr[0]);
     return myArr[1];
 }
-pAndR([23, 31]);
+printNreturn([23, 31]);
     
-
 /* First Plus Length */
+
 /* Values Greater than Second */
 /* Values Greater than Second, Generalized */
 /* This Length, That Value */
