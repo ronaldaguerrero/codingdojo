@@ -135,6 +135,10 @@ function printNreturn(myArr) {
 printNreturn([23, 31]);
     
 /* First Plus Length */
+function firstPlusLength(myArr) {
+    return myArr[0] + myArr.length;
+}
+firstPlusLength([1, 2, 3, 4, 5]);
 
 /* Values Greater than Second */
 /* Values Greater than Second, Generalized */
