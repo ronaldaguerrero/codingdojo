@@ -4,11 +4,12 @@ https://repl.it/@gski_31/Coding-Dojo-Chapter-01-Fundamentals
 var myNum = 42;
 var myName = 'Ron';
 [myName,myNum] = [myNum,myName]
-console.log('my name: ' + myName + ",/nnewNum: " + myNum);
+console.log(myName,myNum);
 
 /*[DONE] Print -52 to 1066 */
-for (let i = -52; i < 1067; i++){
-    document.write(i);}
+for (var i = -52; i <= 1066;i++){
+  document.write('\n' + i)
+}
     
 /*[DONE] Don't Worry, Be Happy */
 var beCheerful = 'good morning!';
@@ -127,9 +128,9 @@ function countDown(num) {
 countDown(44);
 
 /* Print and Return */
-function pR(myArr){
-    document.write(myArr[0]);
-    return myArr[1];
+function pR(Arr){
+    document.write(Arr[0]);
+    return Arr[1];
 }
 pR(4,5);
     
