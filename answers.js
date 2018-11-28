@@ -128,11 +128,11 @@ function countDown(num) {
 countDown(44);
 
 /* Print and Return */
-function pR(Arr){
-    document.write(Arr[0]);
-    return Arr[1];
+function pAndR(myArr) {
+    document.write(myArr[0]);
+    return myArr[1];
 }
-pR(4,5);
+pAndR([23, 31]);
     
 
 /* First Plus Length */
