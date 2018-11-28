@@ -1,8 +1,10 @@
+https://repl.it/@gski_31/Coding-Dojo-Chapter-01-Fundamentals
+
 /*[DONE] Setting and Swapping */
-var myNumber = 42;
+var myNum = 42;
 var myName = 'Ron';
-myNumber = myName;
-MyName = myNumber;
+[myName,myNum] = [myNum,myName]
+console.log('my name: ' + myName + ",/nnewNum: " + myNum);
 
 /*[DONE] Print -52 to 1066 */
 for (let i = -52; i < 1067; i++){
@@ -22,30 +24,22 @@ for (var i = -300; i < 0;i++){
 
 
 /*[DONE] Printing Integers with While */
-var i = 1999, result = "";
-
-while (i++ < 5280) {
-    result += i + " ";}
-
-document.write(result);
+let i = 2000;
+while (i <= 5280) {
+    document.write(i);
+    i++;
+}
 
 /*[DONE] You Say It's Your Birthday */
-var x = 11;
-if (x === 11 || x === 15){
-  console.log('How did you know?');
-} else {
-  console.log('Just another day....');
+function birthday(day, month) {
+return (day == 15 && month == 11) || (day == 11 && month == 15) ? "How did you know?" : 
+"Just another day...." ;
 }
+birthday(11, 15);
+birthday(15, 11);
+birthday(4, 4);
 
-var x = 11;
-x = window.prompt('Input a #: ');
-if (x = 11||15){
-  console.log('How did you know?');
-} else {
-  console.log('Just another day....');
-}
-    
-/* Leap Year */
+/*[Done] Leap Year */
 year = window.prompt("Input a Year : ");
 x = (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
 console.log(x);
@@ -56,6 +50,7 @@ for (var i = 512; i <= 4096; i++){
     console.log(i);
 }
 } 
+
     
 /*[DONE] Multiples of Six */
 var x = 1;
@@ -78,7 +73,11 @@ for (i=1; i<=100; i++) {
     }
 }
        
- 
+/*[DONE] What Do You Know? */
+function outPut(word){
+    console.log(word);
+}
+outPut('incoming')
     
 /*[working] Whoa, That Sucker's Huge... */
 var sum = 0;
@@ -91,8 +90,25 @@ for (var i = -300,000; i < 300,000; i++)
 }
 console.log(sum);
         
-/* Countdown by Fourts */
+/*[done] Countdown by Fours */
+let m = 2016;
+while (m > 0) {
+    if (m % 4 == 0) {
+        console.log(m);
+    }
+    m--;
+}
         
-/* Flexible Countdown */
+/*[done] Flexible Countdown */
+function flexCount(low, high, mult) {
+    let m = high;
+    while (m > low) {
+        if (m % mult == 0) {
+            console.log(m);
+        }
+        m--;
+    }
+}
+flexCount(2, 9, 3);
 
 /* The Final Countdown */
