@@ -151,6 +151,19 @@ function greaterSecond(myArr){
 /* Values Greater than Second, Generalized */
 /* This Length, That Value */
 
+
+/* [done] Fit the first value */ 
+function fitFirst(arr) {
+    if (arr[0] > arr.length) {
+        console.log("Too big!");
+    } else if (arr[0] < arr.length) {
+        console.log("Too small!");
+    } else {
+        console.log("Just right!");
+    }
+}
+fitFirst([11, 15, 89]);
+  
 /* [done] Fahrenheit to Celsius */
 function farToCel(deg) {
     let celc = (deg - 32) * (5 / 9);
@@ -158,7 +171,7 @@ function farToCel(deg) {
 }
 farToCel(99);
 
-/* Celsius to Fahrenheit */
+/* [done] Celsius to Fahrenheit */
 function celToFar(deg) {
     let far = (deg * 9 /5) + 32;
     return far.toFixed(2) + " degrees F";
