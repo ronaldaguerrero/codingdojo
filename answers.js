@@ -141,6 +141,26 @@ function firstPlusLength(myArr) {
 firstPlusLength([1, 2, 3, 4, 5]);
 
 /* Values Greater than Second */
+//Values Greater than Second
+// For [1,3,5,7,9,13], print values that are greater than its 2nd value. Return how many values this is. 
+function greaterSecond(myArr){
+  
+  
+
+
 /* Values Greater than Second, Generalized */
 /* This Length, That Value */
 
+/* [done] Fahrenheit to Celsius */
+function farToCel(deg) {
+    let celc = (deg - 32) * (5 / 9);
+    return celc.toFixed(2) + " degrees C";
+}
+farToCel(99);
+
+/* Celsius to Fahrenheit */
+function celToFar(deg) {
+    let far = (deg * 9 /5) + 32;
+    return far.toFixed(2) + " degrees F";
+} 
+celToFar (33);
