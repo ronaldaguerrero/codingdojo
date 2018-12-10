@@ -1,5 +1,3 @@
-https://repl.it/@gski_31/Coding-Dojo-Chapter-01-Fundamentals
-
 /*[DONE] Setting and Swapping */
 var myNum = 42;
 var myName = 'Ron';
